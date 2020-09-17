@@ -1,0 +1,19 @@
+书名：Spring技术内幕-深入解析Spring架构与设计原理
+
+绪论
+本书从三个层次阐述:核心、组件、应用
+核心模块:IoC(Inversion of Control)和AOP(Aspect Oriented Progromming), 其他模块的实现都以这两个模块作为基础
+
+Spring设计目的: 一站式的轻量级JavaEE(Java Platform Enterprise Edition)应用开发框架
+
+目录
+Spring的子项目:
+    1 Spring Core: IoC容器、AOP、MVC(Model View Control)、JDBC(Java Database Connectivity)/ORM(Object Relational Mapping)、事务
+    2 Spring Security: 用于构建完善的用户管理用户认证、授权
+    3 Spring Security OAuth: 遵循OAuth协议的安全认证
+    4 Spring Data: 提供了访问非关系数据库的功能, 如Hadoop数据
+
+IoC: 对象之间的耦合关系比较复杂, 通过配置文件来管理这个关系会简化代码开发. IoC把对象之间的依赖关系管理起来,
+     将<对象-对象>转换为<对象-IoC容器-对象>.
+     有一个 BeanFactory 接口
+
